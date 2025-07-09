@@ -98,7 +98,7 @@ export default function Introduction() {
             {/* Urbanisation du SI */}
             <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-lg mb-8">
               <h3 className="text-xl font-semibold text-purple-900 mb-4">
-                🏗️ Contexte : L'urbanisation du SI
+                🏗️ Contexte : L&apos;urbanisation du SI
               </h3>
               <div className="text-purple-800 space-y-3">
                 <p>
@@ -162,7 +162,7 @@ export default function Introduction() {
             <div className="bg-yellow-50 border border-yellow-200 p-6 rounded-lg mb-8">
               <h3 className="text-xl font-semibold text-yellow-900 mb-4 flex items-center gap-2">
                 <TrendingUp className="h-6 w-6" />
-                📈 Facteurs de succès et d'échec des projets SI
+                📈 Facteurs de succès et d&apos;échec des projets SI
               </h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-4">

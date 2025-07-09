@@ -311,7 +311,7 @@ export default function QuestionsDSCGHistorique() {
                 Questions DSCG - Historique complet
               </h1>
               <p className="text-gray-600 mt-1">
-                Récapitulatif exhaustif des questions et corrections DSCG sur la mise en place d'un projet (2016-2024)
+                Récapitulatif exhaustif des questions et corrections DSCG sur la mise en place d&apos;un projet (2016-2024)
               </p>
             </div>
           </div>

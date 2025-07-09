@@ -310,7 +310,7 @@ export default function Section2() {
               </h3>
               <p className="text-purple-800 font-medium">
                 Le choix de la méthodologie dépend du contexte : stabilité des besoins, 
-                criticité du projet, expérience de l'équipe et contraintes temporelles.
+                criticité du projet, expérience de l&apos;équipe et contraintes temporelles.
               </p>
             </div>
 

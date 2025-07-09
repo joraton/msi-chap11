@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import BackToPlanButton from '@/components/content/BackToPlanButton';
 import { FileText, Building, Users, Server, Database, ArrowLeft } from 'lucide-react';
-import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 interface Organisme {

@@ -335,7 +335,7 @@ export default function Section3() {
             <div className="bg-orange-50 border border-orange-200 p-6 rounded-lg mb-8">
               <h3 className="text-xl font-semibold text-orange-900 mb-4 flex items-center gap-2">
                  <Calculator className="h-6 w-6" />
-                 📐 Méthodes d'estimation
+                 📐 Méthodes d&apos;estimation
                </h3>
               <div className="space-y-6">
                 <div>

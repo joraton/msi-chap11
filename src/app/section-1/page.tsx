@@ -247,20 +247,20 @@ export default function Section1() {
             </h3>
             <div className="text-orange-800 space-y-4">
               <p className="font-medium">
-                Cette nouvelle fonction apparaît de plus en plus, en particulier dans les offres d'emploi !
+                Cette nouvelle fonction apparaît de plus en plus, en particulier dans les offres d&apos;emploi !
               </p>
               <div className="bg-orange-100 p-4 rounded-lg">
                 <h4 className="font-semibold mb-2">🎯 Spécificités du POM :</h4>
                 <ul className="space-y-2">
-                  <li>• Diffère d'un simple chef de projet ou directeur de projet</li>
-                  <li>• S'inscrit dans le cadre des méthodes agiles (SCRUM)</li>
-                  <li>• Fait l'interface entre besoins utilisateurs et développements</li>
+                  <li>• Diffère d&apos;un simple chef de projet ou directeur de projet</li>
+                  <li>• S&apos;inscrit dans le cadre des méthodes agiles (SCRUM)</li>
+                  <li>• Fait l&apos;interface entre besoins utilisateurs et développements</li>
                 </ul>
               </div>
               <div className="bg-white p-4 rounded-lg border border-orange-200">
                 <h4 className="font-semibold text-orange-900 mb-2">💡 Astuce mémorisation :</h4>
                 <p className="text-orange-700 italic">
-                  "POM = Pont entre Utilisateurs et Développeurs dans l'univers Agile"
+                  &quot;POM = Pont entre Utilisateurs et Développeurs dans l&apos;univers Agile&quot;
                 </p>
               </div>
             </div>
