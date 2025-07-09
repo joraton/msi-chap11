@@ -328,14 +328,14 @@ export default function QuestionsDSCGHistorique() {
                 Contexte pédagogique
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Le thème de la <strong>"mise en place d'un projet"</strong> est central dans le Management des Systèmes d'Information (MSI), 
-                comme l'indique le <strong>Chapitre 11</strong> intitulé "LA MISE EN PLACE D'UN PROJET". Un projet de système d'information 
-                implique la création ou l'évolution d'un SI existant, c'est une opération unique et ponctuelle, limitée dans le temps 
+                Le thème de la <strong>&quot;mise en place d&apos;un projet&quot;</strong> est central dans le Management des Systèmes d&apos;Information (MSI), 
+                comme l&apos;indique le <strong>Chapitre 11</strong> intitulé &quot;LA MISE EN PLACE D&apos;UN PROJET&quot;. Un projet de système d&apos;information 
+                implique la création ou l&apos;évolution d&apos;un SI existant, c&apos;est une opération unique et ponctuelle, limitée dans le temps 
                 avec des dates de début et de fin identifiées.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Il est caractérisé par trois dimensions fondamentales : la qualité, les coûts et les délais (le "triangle qualité, coûts et délais"). 
-                La mise en place rigoureuse d'un projet est essentielle pour une évolution cohérente du SI.
+                Il est caractérisé par trois dimensions fondamentales : la qualité, les coûts et les délais (le &quot;triangle qualité, coûts et délais&quot;). 
+                La mise en place rigoureuse d&apos;un projet est essentielle pour une évolution cohérente du SI.
               </p>
             </div>
           </div>
@@ -404,7 +404,7 @@ export default function QuestionsDSCGHistorique() {
                           Énoncé :
                         </h4>
                         <p className="text-gray-700 italic">
-                          "{q.question}"
+                          &quot;{q.question}&quot;
                         </p>
                       </div>
 
@@ -460,8 +460,8 @@ export default function QuestionsDSCGHistorique() {
                 Synthèse pédagogique
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                Ce panorama des sessions de DSCG met en évidence l'importance constante de la <strong>gestion de projet</strong> 
-                dans le domaine des Systèmes d'Information, en abordant les aspects organisationnels, méthodologiques, 
+                Ce panorama des sessions de DSCG met en évidence l&apos;importance constante de la <strong>gestion de projet</strong> 
+                dans le domaine des Systèmes d&apos;Information, en abordant les aspects organisationnels, méthodologiques, 
                 de planification et de gestion des risques et des ressources.
               </p>
             </div>

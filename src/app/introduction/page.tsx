@@ -102,7 +102,7 @@ export default function Introduction() {
               </h3>
               <div className="text-purple-800 space-y-3">
                 <p>
-                  Le besoin fréquent d'innovations au sein du SI, combiné à une démarche de contrôle et d'optimisation, aboutit à la notion générale d'<strong>urbanisation</strong>.
+                  Le besoin fréquent d&apos;innovations au sein du SI, combiné à une démarche de contrôle et d&apos;optimisation, aboutit à la notion générale d&apos;<strong>urbanisation</strong>.
                 </p>
                 <p>
                   Dans ce contexte, les entreprises vont recourir à la <strong>gestion de projet</strong> pour mettre en œuvre les nouveautés qu'elles souhaitent apporter à leur SI.

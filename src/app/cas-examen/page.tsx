@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import BackToPlanButton from '@/components/content/BackToPlanButton';
-import { FileText, Building, Users, Server, Database, ArrowLeft, ArrowRight, CheckCircle, AlertTriangle } from 'lucide-react';
+import { FileText, Building, Users, Server, Database, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
@@ -118,21 +118,26 @@ const questions = [
     titre: "Facteur clé de succès et risque",
     question: "Définir pour le projet de transformation un facteur clé de succès et un risque identifié distinct.",
     points: 2,
-    correction: "**Facteur clé de succès :**\n\n**Conduite du changement et formation**\n• Accompagnement des 50+ utilisateurs dans la transition\n• Formation approfondie sur les nouveaux outils\n• Communication transparente sur les bénéfices\n• Implication des équipes dans la conception\n\n**Risque identifié :**\n\n**Perte de données lors des migrations**\n• Probabilité : Moyenne\n• Impact : Critique (arrêt activité)\n• Stratégie : RÉDUIRE\n• Actions : Sauvegardes multiples, tests de migration, plan de rollback, validation par métier"
+    correction: "**Facteur clé de succès :**\n\n**Conduite du changement et formation**\n• Accompagnement des 50+ utilisateurs dans la transition\n• Formation approfondie sur les nouveaux outils\n• Communication transparente sur les bénéfices\n• Implication des équipes dans la conception\n\n**Risque identifié :**\n\n**Perte de données lors des migrations**\n• Probabilité : Moyenne
+• Impact : Critique (arrêt activité)
+• Stratégie : RÉDUIRE
+• Actions : Sauvegardes multiples, tests de migration, plan de rollback, validation par métier"
   },
   {
     id: 4,
     titre: "Méthodes de conduite de projet",
     question: "Présenter deux méthodes de conduite de projet de votre choix en expliquant dans quelles mesures elles vous semblent adaptées à cette transformation.",
     points: 2,
-    correction: "**Méthode 1 : Cycle en V**\n\n• Adapté car : Projet complexe, enjeux critiques, besoins stables\n• Phases : Analyse → Conception → Réalisation → Tests → Déploiement\n• Avantages : Traçabilité, validation par étapes, maîtrise des risques\n• Inconvénients : Rigidité, délais longs\n\n**Méthode 2 : Approche hybride (Cycle en V + Agile)**\n\n• Architecture et infrastructure : Cycle en V (stabilité requise)\n• Applications métier : Agile (adaptation aux besoins utilisateurs)\n• Avantages : Flexibilité applicative + rigueur infrastructure\n• Recommandation : Méthode hybride pour ce contexte de fusion"
+    correction: "**Méthode 1 : Cycle en V**\n\n• Adapté car : Projet complexe, enjeux critiques, besoins stables\n• Phases : Analyse → Conception → Réalisation → Tests → Déploiement\n• Avantages : Traçabilité, validation par étapes, maîtrise des risques\n• Inconvénients : Rigidité, délais longs\n\n**Méthode 2 : Approche hybride (Cycle en V + Agile)**\n\n• Architecture et infrastructure : Cycle en V (stabilité requise)\n• Applications métier : Agile (adaptation aux besoins utilisateurs)\n• Avantages : Flexibilité applicative + rigueur infrastructure
+• Recommandation : Méthode hybride pour ce contexte de fusion"
   },
   {
     id: 5,
     titre: "Diagramme de Gantt",
     question: "Tracer un diagramme de Gantt visualisant un projet en 5 tâches et 40 semaines.",
     points: 1,
-    correction: "**Diagramme de Gantt - Projet Haute-Loire Habitat (40 semaines) :**\n\n**Tâche 1 : Audit et conception (S1-S8)**\n**Tâche 2 : Préparation infrastructure (S6-S16)**\n**Tâche 3 : Migration données (S14-S26)**\n**Tâche 4 : Déploiement applications (S24-S36)**\n**Tâche 5 : Formation et mise en service (S34-S40)**\n\n*Note : Chevauchements volontaires pour optimiser les délais*\n*Jalons : S8 (Validation conception), S16 (Infrastructure prête), S26 (Données migrées), S36 (Applications déployées), S40 (Mise en service)*"
+    correction: "**Diagramme de Gantt - Projet Haute-Loire Habitat (40 semaines) :**\n\n**Tâche 1 : Audit et conception (S1-S8)**\n**Tâche 2 : Préparation infrastructure (S6-S16)**\n**Tâche 3 : Migration données (S14-S26)**\n**Tâche 4 : Déploiement applications (S24-S36)**\n**Tâche 5 : Formation et mise en service (S34-S40)**\n\n*Note : Chevauchements volontaires pour optimiser les délais*
+*Jalons : S8 (Validation conception), S16 (Infrastructure prête), S26 (Données migrées), S36 (Applications déployées), S40 (Mise en service)*"
   }
 ];
 
@@ -267,7 +272,7 @@ export default function CasExamen() {
                   <h3 className="font-semibold text-purple-900">Sites</h3>
                 </div>
                 <p className="text-2xl font-bold text-purple-800">{selectedOrg.sites}</p>
-                <p className="text-purple-600">site{selectedOrg.sites > 1 ? 's' : ''}</p>
+                <p className="text-purple-600">site{selectedOrg.sites > 1 ? &apos;s&apos; : &apos;&apos;}</p>
               </div>
             </div>
 
@@ -399,10 +404,10 @@ export default function CasExamen() {
                 <strong>Loi ÉLAN (2018) :</strong> Obligation pour les bailleurs sociaux de moins de 12 000 logements de se regrouper avant le 1er janvier 2021.
               </p>
               <p>
-                <strong>Situation :</strong> Trois bailleurs de Haute-Loire fusionnent pour créer "Haute-Loire Habitat". Vous êtes conseil en SI pour organiser cette transformation.
+                <strong>Situation :</strong> Trois bailleurs de Haute-Loire fusionnent pour créer &quot;Haute-Loire Habitat&quot;. Vous êtes conseil en SI pour organiser cette transformation.
               </p>
               <p>
-                <strong>Enjeux :</strong> Gouvernance, organisation, système d'information, gestion du changement.
+                <strong>Enjeux :</strong> Gouvernance, organisation, système d&apos;information, gestion du changement.
               </p>
             </div>
           </div>
