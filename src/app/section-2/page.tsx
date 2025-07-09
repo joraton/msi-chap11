@@ -257,7 +257,7 @@ export default function Section2() {
               </h3>
               <div className="space-y-4">
                 <div className="text-gray-700 mb-4">
-                  <p>Visualisation d'un projet en 5 tâches principales :</p>
+                  <p>Visualisation d&apos;un projet en 5 tâches principales :</p>
                 </div>
                 <div className="space-y-3">
                   <div className="flex items-center gap-4">
@@ -297,7 +297,7 @@ export default function Section2() {
                   </div>
                 </div>
                 <div className="text-sm text-gray-600 mt-4">
-                  <p><strong>Note :</strong> Les chevauchements permettent d'optimiser les délais et de paralléliser certaines activités.</p>
+                  <p><strong>Note :</strong> Les chevauchements permettent d&apos;optimiser les délais et de paralléliser certaines activités.</p>
                 </div>
               </div>
             </div>

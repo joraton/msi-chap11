@@ -361,7 +361,7 @@ export default function Section3() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-orange-800 mb-3">3. Planning Poker (Agile)</h4>
-                  <p className="text-orange-700">Estimation collaborative par l'équipe avec des cartes (1, 2, 3, 5, 8, 13, 21...)</p>
+                  <p className="text-orange-700">Estimation collaborative par l&apos;équipe avec des cartes (1, 2, 3, 5, 8, 13, 21...)</p>
                 </div>
               </div>
             </div>
