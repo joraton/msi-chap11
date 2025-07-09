@@ -379,7 +379,7 @@ export default function QuestionsDSCGHistorique() {
                     DSCG {yearData.year}
                   </h2>
                   <span className="text-blue-100">
-                    (UE5 – Management des Systèmes d'Information)
+                    (UE5 – Management des Systèmes d&apos;Information)
                   </span>
                 </div>
               </div>

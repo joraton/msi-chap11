@@ -102,42 +102,37 @@ const questions = [
   {
     id: 1,
     titre: "Organisations possibles du SI",
-    question: "Décrire deux organisations possibles du Système d'Information (SI) de la future Direction des systèmes d'information en tenant compte du contexte.",
+    question: "Décrire deux organisations possibles du Système d&apos;Information (SI) de la future Direction des systèmes d&apos;information en tenant compte du contexte.",
     points: 2,
     correction: "**Organisation 1 : Centralisation sur HLM**\n\n• Infrastructure : Utiliser le mini-datacenter de HLM comme base\n• ERP : Migrer tous vers Soki (leader du secteur)\n• Avantages : Infrastructure moderne, ERP performant, équipe SI expérimentée\n• Inconvénients : Coût élevé, migration complexe\n\n**Organisation 2 : Hybride avec externalisation partielle**\n\n• Infrastructure : Garder HLM en central + cloud pour BH\n• ERP : Soki pour HLM/HPG, Habitat Gestion en SaaS pour activités simples\n• Avantages : Coûts maîtrisés, transition progressive\n• Inconvénients : Complexité de gestion, interfaces multiples"
   },
   {
     id: 2,
     titre: "Schéma directeur",
-    question: "Rappeler la définition d'un schéma directeur, puis établir le schéma directeur de cette transformation dans un des cas présentés à la question 1.",
+    question: "Rappeler la définition d&apos;un schéma directeur, puis établir le schéma directeur de cette transformation dans un des cas présentés à la question 1.",
     points: 4,
-    correction: "**Définition du schéma directeur :**\n\nDocument stratégique qui définit l'évolution du SI sur 3-5 ans, aligné sur les objectifs métiers. Il comprend : état des lieux, cible, plan de transformation, budget, planning.\n\n**Schéma directeur - Organisation centralisée HLM :**\n\n**Phase 1 (6 mois) : Préparation**\n• Audit des 3 SI existants\n• Définition architecture cible\n• Plan de migration des données\n\n**Phase 2 (12 mois) : Migration infrastructure**\n• Extension datacenter HLM\n• Migration serveurs HPG vers HLM\n• Mise en place réseau sécurisé\n\n**Phase 3 (18 mois) : Unification applicative**\n• Migration HPG et BH vers Soki\n• Formation des équipes\n• Tests et recette\n\n**Budget estimé : 2M€**\n**ROI attendu : 3 ans**"
+    correction: "**Définition du schéma directeur :**\n\nDocument stratégique qui définit l&apos;évolution du SI sur 3-5 ans, aligné sur les objectifs métiers. Il comprend : état des lieux, cible, plan de transformation, budget, planning.\n\n**Schéma directeur - Organisation centralisée HLM :**\n\n**Phase 1 (6 mois) : Préparation**\n• Audit des 3 SI existants\n• Définition architecture cible\n• Plan de migration des données\n\n**Phase 2 (12 mois) : Migration infrastructure**\n• Extension datacenter HLM\n• Migration serveurs HPG vers HLM\n• Mise en place réseau sécurisé\n\n**Phase 3 (18 mois) : Unification applicative**\n• Migration HPG et BH vers Soki\n• Formation des équipes\n• Tests et recette\n\n**Budget estimé : 2M€**\n**ROI attendu : 3 ans**"
   },
   {
     id: 3,
     titre: "Facteur clé de succès et risque",
     question: "Définir pour le projet de transformation un facteur clé de succès et un risque identifié distinct.",
     points: 2,
-    correction: "**Facteur clé de succès :**\n\n**Conduite du changement et formation**\n• Accompagnement des 50+ utilisateurs dans la transition\n• Formation approfondie sur les nouveaux outils\n• Communication transparente sur les bénéfices\n• Implication des équipes dans la conception\n\n**Risque identifié :**\n\n**Perte de données lors des migrations**\n• Probabilité : Moyenne
-• Impact : Critique (arrêt activité)
-• Stratégie : RÉDUIRE
-• Actions : Sauvegardes multiples, tests de migration, plan de rollback, validation par métier"
+    correction: "**Facteur clé de succès :**\n\n**Conduite du changement et formation**\n• Accompagnement des 50+ utilisateurs dans la transition\n• Formation approfondie sur les nouveaux outils\n• Communication transparente sur les bénéfices\n• Implication des équipes dans la conception\n\n**Risque identifié :**\n\n**Perte de données lors des migrations**\n• Probabilité : Moyenne\n• Impact : Critique (arrêt activité)\n• Stratégie : RÉDUIRE\n• Actions : Sauvegardes multiples, tests de migration, plan de rollback, validation par métier"
   },
   {
     id: 4,
     titre: "Méthodes de conduite de projet",
     question: "Présenter deux méthodes de conduite de projet de votre choix en expliquant dans quelles mesures elles vous semblent adaptées à cette transformation.",
     points: 2,
-    correction: "**Méthode 1 : Cycle en V**\n\n• Adapté car : Projet complexe, enjeux critiques, besoins stables\n• Phases : Analyse → Conception → Réalisation → Tests → Déploiement\n• Avantages : Traçabilité, validation par étapes, maîtrise des risques\n• Inconvénients : Rigidité, délais longs\n\n**Méthode 2 : Approche hybride (Cycle en V + Agile)**\n\n• Architecture et infrastructure : Cycle en V (stabilité requise)\n• Applications métier : Agile (adaptation aux besoins utilisateurs)\n• Avantages : Flexibilité applicative + rigueur infrastructure
-• Recommandation : Méthode hybride pour ce contexte de fusion"
+    correction: "**Méthode 1 : Cycle en V**\n\n• Adapté car : Projet complexe, enjeux critiques, besoins stables\n• Phases : Analyse → Conception → Réalisation → Tests → Déploiement\n• Avantages : Traçabilité, validation par étapes, maîtrise des risques\n• Inconvénients : Rigidité, délais longs\n\n**Méthode 2 : Approche hybride (Cycle en V + Agile)**\n\n• Architecture et infrastructure : Cycle en V (stabilité requise)\n• Applications métier : Agile (adaptation aux besoins utilisateurs)\n• Avantages : Flexibilité applicative + rigueur infrastructure\n• Recommandation : Méthode hybride pour ce contexte de fusion"
   },
   {
     id: 5,
     titre: "Diagramme de Gantt",
     question: "Tracer un diagramme de Gantt visualisant un projet en 5 tâches et 40 semaines.",
     points: 1,
-    correction: "**Diagramme de Gantt - Projet Haute-Loire Habitat (40 semaines) :**\n\n**Tâche 1 : Audit et conception (S1-S8)**\n**Tâche 2 : Préparation infrastructure (S6-S16)**\n**Tâche 3 : Migration données (S14-S26)**\n**Tâche 4 : Déploiement applications (S24-S36)**\n**Tâche 5 : Formation et mise en service (S34-S40)**\n\n*Note : Chevauchements volontaires pour optimiser les délais*
-*Jalons : S8 (Validation conception), S16 (Infrastructure prête), S26 (Données migrées), S36 (Applications déployées), S40 (Mise en service)*"
+    correction: "**Diagramme de Gantt - Projet Haute-Loire Habitat (40 semaines) :**\n\n**Tâche 1 : Audit et conception (S1-S8)**\n**Tâche 2 : Préparation infrastructure (S6-S16)**\n**Tâche 3 : Migration données (S14-S26)**\n**Tâche 4 : Déploiement applications (S24-S36)**\n**Tâche 5 : Formation et mise en service (S34-S40)**\n\n*Note : Chevauchements volontaires pour optimiser les délais*\n*Jalons : S8 (Validation conception), S16 (Infrastructure prête), S26 (Données migrées), S36 (Applications déployées), S40 (Mise en service)*"
   }
 ];
 
@@ -236,7 +231,7 @@ export default function CasExamen() {
                   <h1 className="text-2xl font-bold text-gray-900">
                     {selectedOrg.nom} ({selectedOrg.sigle})
                   </h1>
-                  <p className="text-gray-600">Analyse détaillée de l'organisme</p>
+                  <p className="text-gray-600">Analyse détaillée de l&apos;organisme</p>
                 </div>
               </div>
               <button
@@ -272,7 +267,7 @@ export default function CasExamen() {
                   <h3 className="font-semibold text-purple-900">Sites</h3>
                 </div>
                 <p className="text-2xl font-bold text-purple-800">{selectedOrg.sites}</p>
-                <p className="text-purple-600">site{selectedOrg.sites > 1 ? &apos;s&apos; : &apos;&apos;}</p>
+                <p className="text-purple-600">site{selectedOrg.sites > 1 ? 's' : ''}</p>
               </div>
             </div>
 
@@ -337,29 +332,30 @@ export default function CasExamen() {
 
             {/* Infrastructure */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">🖥️ Infrastructure informatique</h3>
-              <div className="space-y-6">
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-blue-900 mb-3 flex items-center gap-2">
-                    <Server className="h-5 w-5" />
-                    Serveurs
-                  </h4>
-                  <ul className="text-blue-800 space-y-2">
-                    {selectedOrg.infrastructure.serveurs.map((item, index) => (
-                      <li key={index}>• {item}</li>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">🖥️ Infrastructure technique</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <div className="flex items-center gap-3 mb-4">
+                    <Server className="h-6 w-6 text-gray-600" />
+                    <h4 className="font-semibold text-gray-900">Serveurs</h4>
+                  </div>
+                  <ul className="text-gray-700 space-y-2">
+                    {selectedOrg.infrastructure.serveurs.map((serveur, index) => (
+                      <li key={index} className="flex items-start gap-2">
+                        <span className="text-gray-400 mt-1">•</span>
+                        <span>{serveur}</span>
+                      </li>
                     ))}
                   </ul>
                 </div>
-                <div className="bg-green-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-green-900 mb-3 flex items-center gap-2">
-                    <Database className="h-5 w-5" />
-                    ERP
-                  </h4>
-                  <p className="text-green-800">{selectedOrg.infrastructure.erp}</p>
-                </div>
-                <div className="bg-purple-50 p-6 rounded-lg">
-                  <h4 className="font-semibold text-purple-900 mb-3">Particularités</h4>
-                  <ul className="text-purple-800 space-y-2">
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <div className="flex items-center gap-3 mb-4">
+                    <Database className="h-6 w-6 text-gray-600" />
+                    <h4 className="font-semibold text-gray-900">ERP</h4>
+                  </div>
+                  <p className="text-gray-700 mb-4">{selectedOrg.infrastructure.erp}</p>
+                  <h5 className="font-medium text-gray-900 mb-2">Particularités :</h5>
+                  <ul className="text-gray-700 space-y-1">
                     {selectedOrg.infrastructure.particularites.map((item, index) => (
                       <li key={index}>• {item}</li>
                     ))}
@@ -380,54 +376,46 @@ export default function CasExamen() {
         
         <div className="bg-white rounded-xl shadow-lg p-8">
           {/* Header */}
-          <div className="flex items-center gap-4 mb-8">
-            <div className="bg-red-100 p-3 rounded-full">
-              <FileText className="h-8 w-8 text-red-600" />
+          <div className="text-center mb-12">
+            <div className="bg-red-100 p-4 rounded-full w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+              <FileText className="h-10 w-10 text-red-600" />
             </div>
-            <div>
-              <h1 className="text-3xl font-bold text-gray-900">
-                Cas créé par l'IA - Gestion de Projet SI
-              </h1>
-              <p className="text-gray-600">
-                Fusion des bailleurs sociaux - Haute-Loire Habitat
-              </p>
-            </div>
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">
+              Cas d&apos;examen : Haute-Loire Habitat
+            </h1>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Fusion de trois organismes HLM : analyse des systèmes d&apos;information et conduite de projet
+            </p>
           </div>
 
           {/* Context */}
-          <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
-            <h3 className="text-xl font-semibold text-yellow-900 mb-4">
-              📋 Contexte de l'examen
-            </h3>
-            <div className="text-yellow-800 space-y-4">
-              <p>
-                <strong>Loi ÉLAN (2018) :</strong> Obligation pour les bailleurs sociaux de moins de 12 000 logements de se regrouper avant le 1er janvier 2021.
-              </p>
-              <p>
-                <strong>Situation :</strong> Trois bailleurs de Haute-Loire fusionnent pour créer &quot;Haute-Loire Habitat&quot;. Vous êtes conseil en SI pour organiser cette transformation.
-              </p>
-              <p>
-                <strong>Enjeux :</strong> Gouvernance, organisation, système d&apos;information, gestion du changement.
-              </p>
-            </div>
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-12">
+            <h2 className="text-xl font-semibold text-blue-900 mb-4">📋 Contexte</h2>
+            <p className="text-blue-800 leading-relaxed mb-4">
+              Trois organismes HLM de Haute-Loire fusionnent pour créer &quot;Haute-Loire Habitat&quot; :
+            </p>
+            <ul className="text-blue-800 space-y-2">
+              <li>• <strong>Habitat du Pays de Grèzes (HPG)</strong> : 8 000 logements, 1 site</li>
+              <li>• <strong>Haute Loire Métropole (HLM)</strong> : 11 000 logements, 2 sites</li>
+              <li>• <strong>Brioude Habitat (BH)</strong> : 3 000 logements, 3 sites</li>
+            </ul>
+            <p className="text-blue-800 mt-4">
+              Objectif : Unifier les systèmes d&apos;information pour optimiser la gestion du patrimoine de 22 000 logements.
+            </p>
           </div>
 
           {/* Organismes */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">🏢 Les trois organismes à fusionner</h2>
+          <div className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">🏢 Analyse des organismes</h2>
             <div className="grid md:grid-cols-3 gap-6">
-              {organismes.map((org, index) => (
-                <motion.div
+              {organismes.map((org) => (
+                <div
                   key={org.id}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  whileHover={{ scale: 1.02 }}
-                  className={`bg-${org.couleur}-50 border border-${org.couleur}-200 p-6 rounded-xl cursor-pointer hover:shadow-md transition-all`}
                   onClick={() => setSelectedOrganisme(org.id)}
+                  className={`bg-${org.couleur}-50 border border-${org.couleur}-200 p-6 rounded-lg cursor-pointer hover:shadow-lg transition-all duration-200 hover:scale-105`}
                 >
                   <div className="flex items-center gap-3 mb-4">
-                    <div className={`bg-${org.couleur}-100 p-2 rounded-full`}>
+                    <div className={`bg-${org.couleur}-100 p-3 rounded-full`}>
                       <Building className={`h-6 w-6 text-${org.couleur}-600`} />
                     </div>
                     <div>
@@ -435,74 +423,61 @@ export default function CasExamen() {
                       <p className={`text-sm text-${org.couleur}-700`}>{org.nom}</p>
                     </div>
                   </div>
-                  <div className={`space-y-2 text-${org.couleur}-800`}>
-                    <p><strong>{org.logements.toLocaleString()}</strong> logements</p>
-                    <p><strong>{org.factures.toLocaleString()}</strong> factures/an</p>
-                    <p><strong>{org.sites}</strong> site{org.sites > 1 ? 's' : ''}</p>
+                  <div className="space-y-2">
+                    <div className="flex justify-between">
+                      <span className={`text-${org.couleur}-700`}>Logements :</span>
+                      <span className={`font-semibold text-${org.couleur}-900`}>{org.logements.toLocaleString()}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className={`text-${org.couleur}-700`}>Factures/an :</span>
+                      <span className={`font-semibold text-${org.couleur}-900`}>{org.factures.toLocaleString()}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className={`text-${org.couleur}-700`}>Sites :</span>
+                      <span className={`font-semibold text-${org.couleur}-900`}>{org.sites}</span>
+                    </div>
                   </div>
-                  <div className={`mt-4 text-${org.couleur}-600 text-sm font-medium`}>
-                    Cliquer pour voir le détail →
+                  <div className={`mt-4 text-center text-${org.couleur}-600 text-sm font-medium`}>
+                    Cliquer pour analyser →
                   </div>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>
 
-          {/* Questions d'examen */}
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">❓ Questions d'examen</h2>
-            <div className="space-y-4">
-              {questions.map((question, index) => (
-                <motion.div
+          {/* Questions */}
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">❓ Questions d&apos;examen</h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              {questions.map((question) => (
+                <div
                   key={question.id}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  whileHover={{ scale: 1.01 }}
-                  className="bg-gradient-to-r from-gray-50 to-gray-100 p-6 rounded-xl border border-gray-200 hover:shadow-md transition-all cursor-pointer"
                   onClick={() => setSelectedQuestion(question.id)}
+                  className="bg-gray-50 border border-gray-200 p-6 rounded-lg cursor-pointer hover:shadow-lg transition-all duration-200 hover:scale-105"
                 >
-                  <div className="flex items-start justify-between">
-                    <div className="flex-1">
-                      <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                        Question {question.id} : {question.titre}
-                      </h3>
-                      <p className="text-gray-600 mb-3">
-                        {question.question}
-                      </p>
-                      <div className="flex items-center gap-4">
-                        <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">
-                          {question.points} point{question.points > 1 ? 's' : ''}
-                        </span>
-                        <span className="text-gray-500 text-sm">Niveau DSCG</span>
-                      </div>
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="bg-red-100 p-2 rounded-full">
+                      <FileText className="h-5 w-5 text-red-600" />
                     </div>
-                    <div className="ml-4">
-                      <div className="bg-red-600 text-white px-4 py-2 rounded-lg font-medium">
-                        Répondre
-                      </div>
-                    </div>
+                    <span className="bg-red-100 text-red-800 text-xs font-medium px-2 py-1 rounded">
+                      {question.points} pts
+                    </span>
                   </div>
-                </motion.div>
+                  <h3 className="font-bold text-gray-900 mb-3">
+                    Question {question.id} : {question.titre}
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-4">
+                    {question.question.length > 120 
+                      ? question.question.substring(0, 120) + '...' 
+                      : question.question
+                    }
+                  </p>
+                  <div className="text-center text-red-600 text-sm font-medium">
+                    Cliquer pour répondre →
+                  </div>
+                </div>
               ))}
             </div>
-          </div>
-
-          {/* Navigation */}
-          <div className="flex justify-between items-center pt-8 border-t">
-            <Link
-              href="/questions-dscg"
-              className="bg-gray-100 hover:bg-gray-200 text-gray-700 px-6 py-3 rounded-lg font-medium transition-colors flex items-center gap-2"
-            >
-              <ArrowLeft className="h-4 w-4" />
-              Questions DSCG
-            </Link>
-            <Link
-              href="/"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
-            >
-              Retour au plan du cours
-            </Link>
           </div>
         </div>
       </div>

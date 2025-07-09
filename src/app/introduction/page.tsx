@@ -105,7 +105,7 @@ export default function Introduction() {
                   Le besoin fréquent d&apos;innovations au sein du SI, combiné à une démarche de contrôle et d&apos;optimisation, aboutit à la notion générale d&apos;<strong>urbanisation</strong>.
                 </p>
                 <p>
-                  Dans ce contexte, les entreprises vont recourir à la <strong>gestion de projet</strong> pour mettre en œuvre les nouveautés qu'elles souhaitent apporter à leur SI.
+                  Dans ce contexte, les entreprises vont recourir à la <strong>gestion de projet</strong> pour mettre en œuvre les nouveautés qu&apos;elles souhaitent apporter à leur SI.
                 </p>
                 <div className="bg-purple-100 p-4 rounded-lg">
                   <p className="font-semibold">🎯 Objectif :</p>
@@ -177,7 +177,7 @@ export default function Introduction() {
                   </ul>
                 </div>
                 <div className="space-y-4">
-                  <h4 className="font-semibold text-red-800">❌ Facteurs d'échec :</h4>
+                  <h4 className="font-semibold text-red-800">❌ Facteurs d&apos;échec :</h4>
                   <ul className="space-y-2 text-red-700">
                     <li>• Objectifs flous ou changeants</li>
                     <li>• Manque de ressources</li>
@@ -203,7 +203,7 @@ export default function Introduction() {
               </h3>
               <p className="text-green-800 font-medium">
                 Un projet SI réussi nécessite un équilibre entre qualité, coûts et délais, 
-                tout en s'inscrivant dans une démarche d'urbanisation cohérente.
+                tout en s&apos;inscrivant dans une démarche d&apos;urbanisation cohérente.
               </p>
             </div>
           </div>
